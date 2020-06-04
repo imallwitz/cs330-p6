@@ -1,0 +1,165 @@
+/* Universal Formatting */
+
+body {
+  margin: 0;
+  background-color: #293454;
+}
+
+
+
+
+/* Navigation Bar */
+.navbar {
+  text-align: right;
+  background-color: #485682;
+  padding: 10px;
+  border-bottom: 5px solid #FFC83D;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li{
+  display: inline-block;
+  position: relative;
+}
+
+.navbar a{
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5em;
+  color: #f0f3fc;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.navbar a:hover {
+  color: #293454;
+}
+
+.navbar #current-page{
+  color: #FFC83D;
+}
+
+
+
+
+/* general text stuff */
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFC83D;
+  font-size: 3em;
+  font-weight: 500;
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.text {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.5em;
+  color: #f0f3fc;
+  margin: 15px;
+  margin-left: 50px;
+}
+
+.text a {
+  color: #FFC83D;
+}
+
+.text a:hover {
+  color: #6579ba;
+}
+
+
+
+
+/* image-related formatting */
+.image-block {
+  display: flex;
+  justify-content: center;
+}
+
+.image-block .image {
+  width: 400px;
+  border: 10px solid #485682;
+  margin: 50px;
+  box-shadow: 10px 10px #6579ba;
+  background-color: #485682;
+}
+
+.image p {
+  position: absolute;
+  text-align: center;
+}
+
+.description {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.25em;
+  color: white;
+  width: 300px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+}
+
+.image:hover img{
+  opacity: 0.1;
+}
+
+.image:hover .description{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+/* formatting to allow for description text to be on top of the image when hovered */
+#riley-text {
+  top: 350px;
+  left: 100px;
+}
+
+#twins-text {
+  top: 340px;
+  left: 620px;
+}
+
+#cari-text {
+  top: 340px;
+  left: 1140px;
+}
+
+#me-text {
+  top: 575px;
+  left: 100px;
+}
+
+#dad-text {
+  top: 625px;
+  left: 620px;
+}
+
+#noelle-text {
+  top: 575px;
+  left: 1140px;
+}
+
+/* resume-specific */
+.resume {
+  width: 100%;
+  height: 100%;
+}
